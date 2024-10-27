@@ -1,8 +1,13 @@
 /* Header */
 .header{
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-    background: var(--color-bg-1);
+    background: white;
     padding: 0px 50px;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 .header .inner-wrap{
     display: flex;
